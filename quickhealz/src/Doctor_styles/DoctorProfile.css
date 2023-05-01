@@ -1,0 +1,30 @@
+.doctor-profile {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .doctor-profile h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .profile-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .value {
+    flex: 1;
+    text-align: right;
+  }
+  

@@ -1,0 +1,49 @@
+/* PatientDashboard.css */
+
+.patient-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .dashboard-options {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .option {
+    flex: 0 0 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .option:hover {
+    background-color: #d0d0d0;
+  }
+  
+  .option.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .language-selection {
+    margin-top: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px 10px;
+  }
+  

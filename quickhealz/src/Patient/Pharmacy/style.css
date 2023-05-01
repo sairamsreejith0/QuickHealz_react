@@ -1,0 +1,35 @@
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.content-header .ch {
+    display: flex;
+    align-items: center;
+}
+.new-order-card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-order-card-content-buttons {
+    position: relative;
+    top: 25px;
+    right: 30px;
+}
+.content-body {
+    padding: 10px 60px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: calc(100vh - 200px);
+}
+
+.content-body .card-wrapper {
+    margin: 10px 0;
+}
+.sub-card-wrapper{
+    display: flex;
+}

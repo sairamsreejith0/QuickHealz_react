@@ -1,0 +1,43 @@
+/* HealthRecords.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .record-section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    margin-right: 10px;
+  }
+  
+  .doctor {
+    margin-right: 10px;
+  }
+  
+  .reason {
+    color: #777;
+  }
+  

@@ -1,0 +1,33 @@
+/* PatientEducation.css */
+
+.patient-education {
+  padding: 24px;
+}
+
+.patient-education .ant-card-head-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.patient-education .ant-table-wrapper {
+  margin-top: 24px;
+}
+
+.patient-education .ant-table {
+  font-size: 25px;
+}
+
+.patient-education .ant-table-thead > tr > th {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.patient-education .ant-table-tbody > tr > td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.patient-education .ant-table-tbody > tr:hover > td {
+  background-color: #f5f5f5;
+}

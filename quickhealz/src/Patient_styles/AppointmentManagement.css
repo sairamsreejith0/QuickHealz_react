@@ -1,0 +1,41 @@
+/* AppointmentManagement.css */
+.appointment-management-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .appointment-form {
+    margin-bottom: 16px;
+  }
+  
+  .appointment-form input {
+    margin-right: 8px;
+  }
+  
+  .appointment-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .appointment-list li {
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    position: relative;
+  }
+  
+  .appointment-list li button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .appointment-list li button:hover {
+    background: #cc0000;
+  }
+  
